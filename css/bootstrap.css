@@ -14042,18 +14042,6 @@ img {
     right: 20px;
 }
 
-.stack-container {
-    padding: 1rem 0.75rem;
-}
-
-.stack-container:first-child {
-    padding-left: 0;
-}
-
-.stack-container:last-child {
-    padding-right: 0;
-}
-
 .chart {
     position: relative;
     display: block;
