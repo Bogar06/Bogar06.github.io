@@ -14027,13 +14027,53 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 400px;
-    height: 400px;
-    max-height: 400px;
+    min-height: 200px;
+    height: 200px;
+    max-height: 200px;
     position: relative;
     padding: 1rem !important;
     -webkit-filter: blur(0.15rem) grayscale(36%);
     filter: blur(0.15rem) grayscale(36%);
+}
+
+@media (min-width: 576px) {
+    .bg-img {
+        min-height: 250px;
+        height: 250px;
+        max-height: 250px;
+    }
+}
+
+@media (min-width: 768px) {
+    .bg-img {
+        min-height: 300px;
+        height: 300px;
+        max-height: 300px;
+    }
+}
+
+@media (min-width: 992px) {
+    .bg-img {
+        min-height: 400px;
+        height: 400px;
+        max-height: 400px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .bg-img {
+        min-height: 400px;
+        height: 400px;
+        max-height: 400px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .bg-img {
+        min-height: 400px;
+        height: 400px;
+        max-height: 400px;
+    }
 }
 
 .text-block {
